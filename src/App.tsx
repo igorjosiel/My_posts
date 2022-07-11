@@ -1,8 +1,14 @@
 import "./App.css";
+import GlobalStyle from "./styles/globalStyles";
 import Login from "./pages/Login/Login";
 
 function App() {
-  return <Login />;
+  return (
+    <>
+      <GlobalStyle />
+      <Login />
+    </>
+  )
 }
 
 export default App;
